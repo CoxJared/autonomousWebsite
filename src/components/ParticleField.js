@@ -57,7 +57,7 @@ export class ParticleField extends Component {
                     "line_linked": {
                       "enable": true,
                       "distance": 300,
-                      "color": "#136",
+                      "color": "#125",
                       "opacity": 0.4,
                       "width": 2
                     },
