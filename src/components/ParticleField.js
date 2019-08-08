@@ -17,7 +17,7 @@ export class ParticleField extends Component {
                       }
                     },
                     "color": {
-                      value: "#136"
+                      value: this.props.color
                     },
                     "shape": {
                       "type": "circle",
@@ -57,7 +57,7 @@ export class ParticleField extends Component {
                     "line_linked": {
                       "enable": true,
                       "distance": 300,
-                      "color": "#125",
+                      "color": this.props.color,
                       "opacity": 0.4,
                       "width": 2
                     },

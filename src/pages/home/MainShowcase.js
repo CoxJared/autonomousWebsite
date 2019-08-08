@@ -6,7 +6,7 @@ export class MainShowcase extends Component {
     render() {
         return (
             <div className="mainshowcase-container">
-                <ParticleField />
+                <ParticleField color="#135"/>
                 <div className="mainshowcase-header-container">
                     <div className="mainshowcase-line-break" />
                  <h1 className="mainshowcase-header"> MAC  Formula  Autonomous</h1>
